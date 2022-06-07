@@ -18,3 +18,11 @@
     text-align: center;
     color: white;
 }
+.hometext h1{
+    font-size: 70px;
+    margin-top: 80px;
+    
+}
+.hometext p{
+    margin: 20px;
+}
