@@ -26,6 +26,26 @@
 .hometext p{
     margin: 20px;
 }
+
+.Recipe{
+    color: white;
+}
+
+.Recipe h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
+.content p, h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
  button{
     width: 200px;
     padding: 15px;
@@ -51,4 +71,18 @@ a{
 
 button:hover{
     background-color: white;
+}
+
+.parallax{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./getty_food.jpeg);
+    height: 100%;
+    margin-bottom: 40px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content .Recipe{
+    
 }
