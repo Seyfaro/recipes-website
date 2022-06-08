@@ -20,11 +20,8 @@
 }
 .hometext h1{
     font-size: 120px;
-    margin-top: 80px;
+    
 
-}
-.hometext p{
-    margin: 20px;
 }
 
 .Recipe{
@@ -33,18 +30,22 @@
 
 .Recipe h1{
     text-align: center;
-    margin-bottom: 20px;
+    padding: 60px;
 }
 
 .content{
-    margin-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+
     color: white;
+    text-align: center;
+    line-height: 150%;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    list-style-position: inside;
 }
 .content p, h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 40px;
+
 }
  button{
     width: 200px;
@@ -76,13 +77,31 @@ button:hover{
 .parallax{
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./getty_food.jpeg);
     height: 100%;
-    margin-bottom: 40px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.content .Recipe{
-    
+.ingredients{
+    text-decoration: none;
 }
+
+li{
+    margin: 25px 0;
+  }
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 30%;
+    align-items: center;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
