@@ -19,8 +19,8 @@
     color: white;
 }
 .hometext h1{
-    font-size: 120px;
-    
+    font-size: 100px;
+    text-transform: capitalize;
 
 }
 
@@ -103,5 +103,5 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
   }
